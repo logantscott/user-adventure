@@ -6,10 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>User Adventure</title>
 </head>
 
 <body>
+    <header>
+        <img />
+        <h1>Adventure Quest</h1>
+    </header>
+    
+    <main> 
+        <h2>
+            Tell me about yourself
+        </h2>
+        <form id="new-user">
+            <label for="name">Your player's name:</label>
+            <input id="name" name="name" required>
+            <label for="food">Your player's favorite food:</label>
+            <input id="food" name="food" required>
+            <fieldset>
+                <legend>Your player's pronouns:</legend>
+                    <label>
+                        <input type="radio" name="pronouns" required value="she">
+                        she/her
+                    </label>
+                    <label>
+                        <input type="radio" name="pronouns" required value="they">
+                        they/them
+                    </label>
+                    <label>
+                        <input type="radio" name="pronouns" required value="he">
+                        he/him
+                    </label>
+            </fieldset>
+            <fieldset>
+                <legend>Your player's eye color:</legend>
+                    <label>
+                        <input type="radio" name="eyecolor" required value="brown">
+                        brown
+                    </label>
+                    <label>
+                        <input type="radio" name="eyecolor" required value="blue">
+                        blue
+                    </label>
+                    <label>
+                        <input type="radio" name="eyecolor" required value="hazel">
+                        hazel
+                    </label>
+                    <label>
+                        <input type="radio" name="eyecolor" required value="amber">
+                        amber
+                    </label>
+                    <label>
+                        <input type="radio" name="eyecolor" required value="green">
+                        green
+                    </label>
+            </fieldset>
+            <button>Start Adventure Quest</button>
+        </form>
+    </main>
 
     <script type="module" src="app.js"></script>
 </body>

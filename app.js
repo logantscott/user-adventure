@@ -15,7 +15,7 @@
 // load quest page with selected quest from query param, load quest from object literal saved in quest data js file
 // loaded quest should include question/task and form inputs
 
-
+// note to self - array.sort(function (a, b) { return 0.5 — Math.random() })
 
 const form = document.querySelector('#new-user');
 
